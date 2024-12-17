@@ -1,0 +1,12 @@
+[training]
+  batch_size = 32
+  epochs = 10
+  training_portion = 0.8
+  optimizer.type = "Adam"
+  optimizer.learning_rate = 0.001
+  criterion = "Cross Entropy"
+
+  [training.k_fold]
+    status = true
+    n_folds = 5
+
